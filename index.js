@@ -14,7 +14,8 @@ $(function shoppingList () {
                 </button>
                 </div>
             </li>`);
-        }); 
+            $('input#shopping-list-entry').val("");
+        });
     });
 
     $('.shopping-list').on('click', '.shopping-item-toggle', function(e) {
